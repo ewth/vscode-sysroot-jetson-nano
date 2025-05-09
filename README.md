@@ -1,33 +1,5 @@
-# vscode-sysroot
+# vscode-sysroot-jetson-nano
 
-Allows VS Code 1.99+ to run on legacy systems.
+This is intended to allow VS Code server to run on Jetson Nano 2GB. Targets `aarch64` architecture.
 
-A sysroot with glibc 2.28 and kernel 3.10 is built using `crosstool-ng` in Docker, following the [unofficial instructions](https://code.visualstudio.com/docs/remote/faq#_can-i-run-vs-code-server-on-older-linux-distributions) with some modifications. [patchelf](https://github.com/NixOS/patchelf) is also installed into the sysroot. Once it is copied to the remote system, and the proper environment variables are set up, the server will patch itself on startup.
-
-This is confirmed to work on CentOS 7.9 / RHEL 7.9 / Oracle Linux 7.9.
-It may work on Ubuntu 18.04, but see below.
-
-## Instructions
-
-- Ensure you have a working Docker installation
-- Use `make` to build a sysroot tarball in `toolchain/`
-- Copy `toolchain/vscode-sysroot-x86_64-linux-gnu.tgz` to the remote legacy server
-- Untar the sysroot into `~/.vscode-server/sysroot` on the remote
-  - `tar zxf vscode-sysroot-x86_64-linux-gnu.tgz -C ~/.vscode-server`
-- Copy `sysroot.sh` to `~/.vscode-server/sysroot.sh` on the remote server
-- `source ~/.vscode-server/sysroot.sh` from your `.bashrc` or other login script
-
-Now connect to your remote server in VS Code, and in the `Output > Remote - SSH` tab, you will see `Patching glibc` and `Patching linker`
-just after `Starting server...`. Any error output is also visible in this tab.
-
-### Ubuntu 18.04
-
-On Ubuntu 18.04, which uses kernel 4.15 or later, this config is untested but may work as-is.
-However, you might have to change the following versions to `"4.15"` (or later) in `x86_64-gcc-8.5.0-glibc-2.28.config`.
-In [Microsoft's example](https://github.com/microsoft/vscode-linux-build-agent/blob/main/x86_64-gcc-8.5.0-glibc-2.28.config),
-they are set to exactly `4.19.287`. If you confirm this either way, please open an issue with your findings.
-
-```
-  CT_LINUX_VERSION="3.10"
-  CT_GLIBC_MIN_KERNEL="3.10"
-```
+Forked from [ursetto/vscode-sysroot](https://github.com/ursetto/vscode-sysroot).
