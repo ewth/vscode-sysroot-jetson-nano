@@ -1,0 +1,410 @@
+[00:09:24.054] Log Level: 1
+[00:09:24.060] Registering chat participant remote-ssh
+[00:09:24.079] SSH Resolver called for "ssh-remote+jetson", attempt 1
+[00:09:24.088] remote.SSH.useLocalServer = true
+[00:09:24.090] remote.SSH.useExecServer = true
+[00:09:24.090] remote.SSH.bindHost = {}
+[00:09:24.092] remote.SSH.path = 
+[00:09:24.098] remote.SSH.configFile = 
+[00:09:24.099] remote.SSH.useFlock = true
+[00:09:24.100] remote.SSH.lockfilesInTmp = false
+[00:09:24.101] remote.SSH.localServerDownload = auto
+[00:09:24.102] remote.SSH.remoteServerListenOnSocket = false
+[00:09:24.102] remote.SSH.defaultExtensions = []
+[00:09:24.103] remote.SSH.defaultExtensionsIfInstalledLocally = []
+[00:09:24.104] remote.SSH.loglevel = 1
+[00:09:24.104] remote.SSH.enableDynamicForwarding = true
+[00:09:24.105] remote.SSH.enableRemoteCommand = false
+[00:09:24.106] remote.SSH.serverPickPortsFromRange = {}
+[00:09:24.107] remote.SSH.serverInstallPath = {}
+[00:09:24.108] remote.SSH.permitPtyAllocation = false
+[00:09:24.108] remote.SSH.preferredLocalPortRange = undefined
+[00:09:24.109] remote.SSH.useCurlAndWgetConfigurationFiles = false
+[00:09:24.110] remote.SSH.experimental.chat = true
+[00:09:24.110] remote.SSH.experimental.enhancedSessionLogs = true
+[00:09:24.111] remote.SSH.httpProxy = {"*":""}
+[00:09:24.112] remote.SSH.httpsProxy = {"*":""}
+[00:09:24.140] VS Code version: 1.100.0
+[00:09:24.141] Remote-SSH version: remote-ssh@0.120.0
+[00:09:24.142] linux x64
+[00:09:24.147] Found relevant configuration for host jetson in JSON data
+[00:09:24.148] SSH Resolver called for host: jetson
+[00:09:24.148] Setting up SSH remote "jetson"
+[00:09:24.156] Acquiring local install lock: /tmp/vscode-remote-ssh-36c19f90-install.lock
+[00:09:24.160] Looking for existing server data file at /home/ewan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-36c19f90-19e0f9e681ecb8e5c09d8784acaa601316ca4571-0.120.0-es/data.json
+[00:09:24.161] Found existing data file
+[00:09:24.161] Found local server running: {"remoteListeningOn":{"port":36451},"osReleaseId":"ubuntu","arch":"aarch64","sshAuthSock":"","display":"","tmpDir":"/run/user/1000","platform":"linux","execServerToken":"0410b221-fd26-4b7f-8bba-fbc6f2c6af9b","pid":1101655,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-805b327fded32a0421b80394e2c211e535257bf6.sock","socksPort":35713,"startupTime":1746806782968}
+[00:09:24.169] Found running server - short-circuiting install
+[00:09:24.172] Starting forwarding server. local port 37361 -> socksPort 35713 -> remotePort 36451
+[00:09:24.172] Forwarding server listening on port 37361
+[00:09:24.172] Waiting for ssh tunnel to be ready
+[00:09:24.173] [Forwarding server port 37361] Got connection 0
+[00:09:24.174] Tunneled port 36451 to local port 37361
+[00:09:24.174] Resolved "ssh-remote+jetson" to "port 37361"
+[00:09:24.181] Initizing new exec server for ssh-remote+jetson
+[00:09:24.181] Resolving exec server at port 37361
+[00:09:24.182] [Forwarding server port 37361] Got connection 1
+[00:09:24.332] Exec server for ssh-remote+jetson created and cached
+[00:09:24.332] Extensions to install: 
+[00:09:24.332] Updating terminal environments: {}
+[00:09:24.336] TELEMETRY: {"eventName":"resolver","properties":{"osReleaseId":"ubuntu","arch":"aarch64","askedPw":"0","askedPassphrase":"0","asked2fa":"0","askedHostKey":"0","remoteInConfigFile":"1","gotUnrecognizedPrompt":"0","dynamicForwarding":"1","localServer":"1","didLocalDownload":"0","installUnpackCode":"0","outcome":"success"},"measures":{"resolveAttempts":1,"retries":1,"isExecServer":1,"timing.totalResolveTime":257}}
+[00:09:24.339] ------
+
+
+
+
+[00:09:24.341] No hints found in the recent session.
+[00:09:24.358] [server] Checking /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/log.txt and /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/pid.txt for a running server...
+[00:09:24.407] [server] Installing and setting up Visual Studio Code Server...
+[00:09:24.828] [server] Downloading Visual Studio Code server -> /tmp/.tmpvIG7GB/vscode-server-linux-arm64.tar.gz
+[00:09:24.828] [server] server download progress: 0/60297698 (0%)
+[00:09:25.248] [server] server download progress: 2105344/60297698 (3%)
+[00:09:25.656] [server] server download progress: 4210688/60297698 (7%)
+[00:09:26.173] [server] server download progress: 6312048/60297698 (10%)
+[00:09:26.522] [server] server download progress: 8410631/60297698 (14%)
+[00:09:26.950] [server] server download progress: 10515975/60297698 (17%)
+[00:09:27.380] [server] server download progress: 12615680/60297698 (21%)
+[00:09:27.808] [server] server download progress: 14717933/60297698 (24%)
+[00:09:28.322] [server] server download progress: 16818176/60297698 (28%)
+[00:09:28.731] [server] server download progress: 18923520/60297698 (31%)
+[00:09:29.141] [server] server download progress: 21028864/60297698 (35%)
+[00:09:29.549] [server] server download progress: 23130389/60297698 (38%)
+[00:09:29.960] [server] server download progress: 25229410/60297698 (42%)
+[00:09:30.471] [server] server download progress: 27328512/60297698 (45%)
+[00:09:30.881] [server] server download progress: 29433856/60297698 (49%)
+[00:09:31.393] [server] server download progress: 31539200/60297698 (52%)
+[00:09:31.802] [server] server download progress: 33644544/60297698 (56%)
+[00:09:32.213] [server] server download progress: 35749888/60297698 (59%)
+[00:09:32.519] [server] server download progress: 37852013/60297698 (63%)
+[00:09:32.929] [server] server download progress: 39953600/60297698 (66%)
+[00:09:33.234] [server] server download progress: 42054828/60297698 (70%)
+[00:09:33.646] [server] server download progress: 44159260/60297698 (73%)
+[00:09:33.954] [server] server download progress: 46264571/60297698 (77%)
+[00:09:34.363] [server] server download progress: 48369883/60297698 (80%)
+[00:09:34.670] [server] server download progress: 50475227/60297698 (84%)
+[00:09:35.183] [server] server download progress: 52572525/60297698 (87%)
+[00:09:35.592] [server] server download progress: 54677869/60297698 (91%)
+[00:09:36.003] [server] server download progress: 56778283/60297698 (94%)
+[00:09:36.308] [server] server download progress: 58879936/60297698 (98%)
+[00:09:36.616] [server] server download progress: 60297698/60297698 (100%)
+[00:09:38.561] [server] server inflate progress: 103/2042 (5%)
+[00:09:38.561] [server] server inflate progress: 207/2042 (10%)
+[00:09:38.632] [server] server inflate progress: 311/2042 (15%)
+[00:09:38.701] [server] server inflate progress: 415/2042 (20%)
+[00:09:38.746] [server] server inflate progress: 519/2042 (25%)
+[00:09:38.826] [server] server inflate progress: 623/2042 (31%)
+[00:09:40.609] [server] server inflate progress: 727/2042 (36%)
+[00:09:40.609] [server] server inflate progress: 831/2042 (41%)
+[00:09:40.609] [server] server inflate progress: 935/2042 (46%)
+[00:09:40.615] [server] server inflate progress: 1039/2042 (51%)
+[00:09:40.646] [server] server inflate progress: 1143/2042 (56%)
+[00:09:41.122] [server] server inflate progress: 1247/2042 (61%)
+[00:09:41.122] [server] server inflate progress: 1351/2042 (66%)
+[00:09:41.122] [server] server inflate progress: 1455/2042 (71%)
+[00:09:41.126] [server] server inflate progress: 1559/2042 (76%)
+[00:09:41.151] [server] server inflate progress: 1663/2042 (81%)
+[00:09:41.169] [server] server inflate progress: 1767/2042 (87%)
+[00:09:41.186] [server] server inflate progress: 1871/2042 (92%)
+[00:09:41.325] [server] server inflate progress: 1975/2042 (97%)
+[00:09:41.326] [server] server inflate progress: 2042/2042 (100%)
+[00:09:41.326] [server] Skipping server integrity check
+[00:09:41.351] [server] Server setup complete
+[00:09:41.351] [server] Starting server...
+[00:09:41.352] [server] Starting server with command... Command { std: "/home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-f60482a1-bc84-4627-9910-e0cb62161a54", kill_on_drop: false }
+[00:09:41.359] [server] Patching glibc from /home/jetson/.vscode-server/sysroot/usr/lib:/home/jetson/.vscode-server/sysroot/lib with /home/jetson/.vscode-server/sysroot/usr/bin/patchelf...
+[00:09:43.374] [server] Patching linker from /home/jetson/.vscode-server/sysroot/lib/ld-linux-x86-64.so.2 with /home/jetson/.vscode-server/sysroot/usr/bin/patchelf...
+[00:09:46.343] [server] Patching complete.
+[00:09:46.344] [server] /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/server/bin/code-server: 22: /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/server/bin/code-server: /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/server/node: not found
+[00:09:48.419] [server] Checking /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/log.txt and /home/jetson/.vscode-server/cli/servers/Stable-19e0f9e681ecb8e5c09d8784acaa601316ca4571/pid.txt for a running server...
+[00:09:48.423] ------
+
+
+
+
+[00:09:48.423] SSH Resolver called for "ssh-remote+jetson", attempt 2, (Reconnection)
+[00:09:48.425] Found relevant configuration for host jetson in JSON data
+[00:09:48.425] SSH Resolver called for host: jetson
+[00:09:48.425] Setting up SSH remote "jetson"
+[00:09:48.428] Acquiring local install lock: /tmp/vscode-remote-ssh-36c19f90-install.lock
+[00:09:48.428] Looking for existing server data file at /home/ewan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-36c19f90-19e0f9e681ecb8e5c09d8784acaa601316ca4571-0.120.0-es/data.json
+[00:09:48.429] Found existing data file
+[00:09:48.429] Found local server running: {"remoteListeningOn":{"port":36451},"osReleaseId":"ubuntu","arch":"aarch64","sshAuthSock":"","display":"","tmpDir":"/run/user/1000","platform":"linux","execServerToken":"0410b221-fd26-4b7f-8bba-fbc6f2c6af9b","pid":1101655,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-805b327fded32a0421b80394e2c211e535257bf6.sock","socksPort":35713,"startupTime":1746806782968}
+[00:09:48.429] Running server is stale. Ignoring
+[00:09:48.430] Using commit id "19e0f9e681ecb8e5c09d8784acaa601316ca4571" and quality "stable" for server
+[00:09:48.430] Extensions to install: 
+[00:09:48.434] Install and start server if needed
+[00:09:48.437] PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+[00:09:48.437] Checking ssh with "ssh -V"
+[00:09:48.459] > OpenSSH_9.6p1 Ubuntu-3ubuntu13.11, OpenSSL 3.0.13 30 Jan 2024
+
+[00:09:48.463] askpass server listening on /run/user/1000/vscode-ssh-askpass-0b21c7c75751f221dab498757891888362b599e2.sock
+[00:09:48.463] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-5788888902ab42819170345a668710af98fed178.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","40995","-o","ConnectTimeout=15","jetson"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/ewan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-36c19f90-19e0f9e681ecb8e5c09d8784acaa601316ca4571-0.120.0-es/data.json"}
+[00:09:48.464] Local server env: {"SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/ewan/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/usr/share/code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/ewan/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-0b21c7c75751f221dab498757891888362b599e2.sock"}
+[00:09:48.475] Spawned 1103914
+[00:09:48.476] Using connect timeout of 17 seconds
+[00:09:48.480] [server] Installing and setting up Visual Studio Code Server...
+[00:09:48.527] [server] Downloading Visual Studio Code server -> /tmp/.tmp3akQml/vscode-server-linux-arm64.tar.gz
+[00:09:48.527] [server] server download progress: 0/60297698 (0%)
+[00:09:48.627] > local-server-1> Running ssh connection command: ssh -v -T -D 40995 -o ConnectTimeout=15 jetson
+[00:09:48.636] > local-server-1> Spawned ssh, pid=1103944
+[00:09:48.640] stderr> OpenSSH_9.6p1 Ubuntu-3ubuntu13.11, OpenSSL 3.0.13 30 Jan 2024
+[00:09:48.641] stderr> debug1: Reading configuration data /home/ewan/.ssh/config
+[00:09:48.641] stderr> debug1: /home/ewan/.ssh/config line 1: Applying options for jetson
+[00:09:48.641] stderr> debug1: Reading configuration data /etc/ssh/ssh_config
+[00:09:48.641] stderr> debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+[00:09:48.641] stderr> debug1: /etc/ssh/ssh_config line 21: Applying options for *
+[00:09:48.642] stderr> debug1: Connecting to jetson [192.168.1.115] port 22.
+[00:09:48.666] stderr> debug1: fd 3 clearing O_NONBLOCK
+[00:09:48.666] stderr> debug1: Connection established.
+[00:09:48.666] stderr> debug1: identity file /home/ewan/.ssh/id_rsa type -1
+[00:09:48.666] stderr> debug1: identity file /home/ewan/.ssh/id_rsa-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ecdsa type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ecdsa-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ecdsa_sk type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ecdsa_sk-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ed25519 type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ed25519-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ed25519_sk type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_ed25519_sk-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_xmss type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_xmss-cert type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_dsa type -1
+[00:09:48.667] stderr> debug1: identity file /home/ewan/.ssh/id_dsa-cert type -1
+[00:09:48.667] stderr> debug1: Local version string SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.11
+[00:09:48.694] stderr> debug1: Remote protocol version 2.0, remote software version OpenSSH_7.6p1 Ubuntu-4ubuntu0.7
+[00:09:48.694] stderr> debug1: compat_banner: match: OpenSSH_7.6p1 Ubuntu-4ubuntu0.7 pat OpenSSH_7.0*,OpenSSH_7.1*,OpenSSH_7.2*,OpenSSH_7.3*,OpenSSH_7.5*,OpenSSH_7.6*,OpenSSH_7.7* compat 0x04000002
+[00:09:48.694] stderr> debug1: Authenticating to jetson:22 as 'jetson'
+[00:09:48.695] stderr> debug1: load_hostkeys: fopen /home/ewan/.ssh/known_hosts2: No such file or directory
+[00:09:48.695] stderr> debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+[00:09:48.695] stderr> debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+[00:09:48.695] stderr> debug1: SSH2_MSG_KEXINIT sent
+[00:09:48.760] stderr> debug1: SSH2_MSG_KEXINIT received
+[00:09:48.760] stderr> debug1: kex: algorithm: curve25519-sha256
+[00:09:48.760] stderr> debug1: kex: host key algorithm: ssh-ed25519
+[00:09:48.760] stderr> debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+[00:09:48.761] stderr> debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+[00:09:48.761] stderr> debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+[00:09:48.800] stderr> debug1: SSH2_MSG_KEX_ECDH_REPLY received
+[00:09:48.800] stderr> debug1: Server host key: ssh-ed25519 SHA256:Bqf+I2Y26wwu+HHBfLaWseFfbVSP1l8g+dsCA+7mnuI
+[00:09:48.801] stderr> debug1: load_hostkeys: fopen /home/ewan/.ssh/known_hosts2: No such file or directory
+[00:09:48.801] stderr> debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+[00:09:48.801] stderr> debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+[00:09:48.801] stderr> debug1: Host 'jetson' is known and matches the ED25519 host key.
+[00:09:48.801] stderr> debug1: Found key in /home/ewan/.ssh/known_hosts:1
+[00:09:48.802] stderr> debug1: rekey out after 134217728 blocks
+[00:09:48.802] stderr> debug1: SSH2_MSG_NEWKEYS sent
+[00:09:48.802] stderr> debug1: expecting SSH2_MSG_NEWKEYS
+[00:09:48.803] stderr> debug1: SSH2_MSG_NEWKEYS received
+[00:09:48.803] stderr> debug1: rekey in after 134217728 blocks
+[00:09:48.803] stderr> debug1: SSH2_MSG_EXT_INFO received
+[00:09:48.803] stderr> debug1: kex_ext_info_client_parse: server-sig-algs=<ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521>
+[00:09:48.908] stderr> debug1: SSH2_MSG_SERVICE_ACCEPT received
+[00:09:48.992] stderr> debug1: Authentications that can continue: publickey
+[00:09:48.992] stderr> debug1: Next authentication method: publickey
+[00:09:48.994] stderr> debug1: get_agent_identities: bound agent to hostkey
+[00:09:48.994] stderr> debug1: get_agent_identities: agent returned 1 keys
+[00:09:48.994] stderr> debug1: Will attempt key: ewan@ubuntu24 ED25519 SHA256:pWNa+N4Pd4WQaQqkv06Gn1H99/9r1BdyWeqwTb5BzEU agent
+[00:09:48.994] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_rsa 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_ecdsa 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_ecdsa_sk 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_ed25519 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_ed25519_sk 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_xmss 
+[00:09:48.995] stderr> debug1: Will attempt key: /home/ewan/.ssh/id_dsa 
+[00:09:48.995] stderr> debug1: Offering public key: ewan@ubuntu24 ED25519 SHA256:pWNa+N4Pd4WQaQqkv06Gn1H99/9r1BdyWeqwTb5BzEU agent
+[00:09:49.002] stderr> debug1: Server accepts key: ewan@ubuntu24 ED25519 SHA256:pWNa+N4Pd4WQaQqkv06Gn1H99/9r1BdyWeqwTb5BzEU agent
+[00:09:49.078] stderr> Authenticated to jetson ([192.168.1.115]:22) using "publickey".
+[00:09:49.079] stderr> debug1: Local connections to LOCALHOST:40995 forwarded to remote address socks:0
+[00:09:49.079] stderr> debug1: Local forwarding listening on ::1 port 40995.
+[00:09:49.079] stderr> debug1: channel 0: new port-listener [port listener] (inactive timeout: 0)
+[00:09:49.079] stderr> debug1: Local forwarding listening on 127.0.0.1 port 40995.
+[00:09:49.079] [server] server download progress: 2105344/60297698 (3%)
+[00:09:49.080] stderr> debug1: channel 1: new port-listener [port listener] (inactive timeout: 0)
+[00:09:49.080] stderr> debug1: channel 2: new session [client-session] (inactive timeout: 0)
+[00:09:49.080] stderr> debug1: Requesting no-more-sessions@openssh.com
+[00:09:49.080] stderr> debug1: Entering interactive session.
+[00:09:49.080] stderr> debug1: pledge: filesystem
+[00:09:49.211] stderr> debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+[00:09:49.212] stderr> debug1: client_input_hostkeys: searching /home/ewan/.ssh/known_hosts for jetson / (none)
+[00:09:49.212] stderr> debug1: client_input_hostkeys: searching /home/ewan/.ssh/known_hosts2 for jetson / (none)
+[00:09:49.212] stderr> debug1: client_input_hostkeys: hostkeys file /home/ewan/.ssh/known_hosts2 does not exist
+[00:09:49.212] stderr> debug1: client_input_hostkeys: host key found matching a different name/address, skipping UserKnownHostsFile update
+[00:09:49.307] stderr> debug1: Sending environment.
+[00:09:49.307] stderr> debug1: channel 2: setting env LANG = "en_US.UTF-8"
+[00:09:49.307] stderr> debug1: pledge: network
+[00:09:49.413] > Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 4.9.337-tegra aarch64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/pro
+> This system has been minimized by removing packages and content that are
+> not required on a system that users do not log into.
+> 
+> To restore this content, you can run the 'unminimize' command.
+> 
+> Expanded Security Maintenance for Infrastructure is not enabled.
+> 
+> 0 updates can be applied immediately.
+> 
+> 207 additional security updates can be applied with ESM Infra.
+> Learn more about enabling ESM Infra service for Ubuntu 18.04 at
+> https://ubuntu.com/18-04
+[00:09:49.722] [server] server download progress: 4210688/60297698 (7%)
+[00:09:50.132] > ready: 00742464b17a
+[00:09:50.133] [server] server download progress: 6312768/60297698 (10%)
+[00:09:50.195] > Linux 4.9.337-tegra #1 SMP PREEMPT Mon Nov 4 23:41:41 PST 2024
+[00:09:50.196] Platform: linux
+[00:09:50.296] > /bin/bash
+[00:09:50.296] Parent Shell: bash
+[00:09:50.297] Parent Shell pid: 1103914
+[00:09:50.297] Waiting for subshell to start
+[00:09:50.333] > 9234
+[00:09:50.333] stdout -> '9234'
+[00:09:50.333] sub-process detected
+[00:09:50.373] > 00742464b17a: running
+> Script executing under PID: 9234
+[00:09:50.374] > Found existing installation at /home/jetson/.vscode-server...
+> Starting VS Code CLI...
+> printenv:
+[00:09:50.385] >     MAIL=/var/mail/jetson
+>     USER=jetson
+>     SSH_CLIENT=192.168.1.188 47976 22
+>     SHLVL=1
+>     HOME=/home/jetson
+>     JETSON_L4T=32.7.6
+>     JETSON_MODEL=NVIDIA Jetson Nano 2GB Developer Kit
+>     DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+>     LOGNAME=jetson
+>     JETSON_SERIAL_NUMBER=1423720058307
+>     JETSON_MODULE=NVIDIA Jetson Nano (2 GB ram)
+>     _=/bin/sh
+>     JETSON_CODENAME=Batuu
+>     XDG_SESSION_ID=41
+>     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>     VSCODE_SERVER_CUSTOM_GLIBC_LINKER=/home/jetson/.vscode-server/sysroot/lib/ld-linux-x86-64.so.2
+>     XDG_RUNTIME_DIR=/run/user/1000
+>     LANG=en_AU.UTF-8
+>     VSCODE_SERVER_CUSTOM_GLIBC_PATH=/home/jetson/.vscode-server/sysroot/usr/lib:/home/jetson/.vscode-server/sysroot/lib
+>     JETSON_SOC=tegra210
+>     SHELL=/bin/bash
+>     JETSON_BOARDIDS=p3448
+>     JETSON_CUDA_ARCH_BIN=5.3
+>     PWD=/home/jetson
+>     SSH_CONNECTION=192.168.1.188 47976 192.168.1.115 22
+>     XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+>     VSCODE_SERVER_PATCHELF_PATH=/home/jetson/.vscode-server/sysroot/usr/bin/patchelf
+>     JETSON_JETPACK=4.6.6
+>     JETSON_P_NUMBER=p3448-0003
+[00:09:50.386] > Spawned remote CLI: 9253
+> Waiting for server log...
+[00:09:50.419] > Waiting for server log...
+[00:09:50.502] [server] server download progress: 8413120/60297698 (14%)
+[00:09:50.502] > 00742464b17a: start
+> listeningOn==127.0.0.1:43953==
+> osReleaseId==ubuntu==
+> arch==aarch64==
+> vscodeArch==arm64==
+> bitness==64==
+> tmpDir==/run/user/1000==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==86==
+> execServerToken==11a11aaa-1111-11aa-aa1a-1111aaa1aaaa==
+> platformDownloadPath==cli-alpine-arm64==
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> 00742464b17a: end
+[00:09:50.503] Received install output: 
+listeningOn==127.0.0.1:43953==
+osReleaseId==ubuntu==
+arch==aarch64==
+vscodeArch==arm64==
+bitness==64==
+tmpDir==/run/user/1000==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==86==
+execServerToken==11a11aaa-1111-11aa-aa1a-1111aaa1aaaa==
+platformDownloadPath==cli-alpine-arm64==
+SSH_AUTH_SOCK====
+DISPLAY====
+
+[00:09:50.503] Remote server is listening on port 43953
+[00:09:50.503] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":43953},"osReleaseId":"ubuntu","arch":"aarch64","sshAuthSock":"","display":"","tmpDir":"/run/user/1000","platform":"linux","execServerToken":"11a11aaa-1111-11aa-aa1a-1111aaa1aaaa"},"serverStartTime":86,"installUnpackCode":""}
+[00:09:50.503] ** Note: Support for architecture "aarch64" is in preview **
+[00:09:50.504] Persisting server connection details to /home/ewan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-36c19f90-19e0f9e681ecb8e5c09d8784acaa601316ca4571-0.120.0-es/data.json
+[00:09:50.505] Starting forwarding server. local port 43203 -> socksPort 40995 -> remotePort 43953
+[00:09:50.506] Forwarding server listening on port 43203
+[00:09:50.506] Waiting for ssh tunnel to be ready
+[00:09:50.507] [Forwarding server port 43203] Got connection 0
+[00:09:50.507] Tunneled port 43953 to local port 43203
+[00:09:50.507] Resolved "ssh-remote+jetson" to "port 43203"
+[00:09:50.508] stderr> debug1: Connection to port 40995 forwarding to socks port 0 requested.
+[00:09:50.508] stderr> debug1: channel 3: new dynamic-tcpip [dynamic-tcpip] (inactive timeout: 0)
+[00:09:50.532] Verified and reusing cached exec server for ssh-remote+jetson
+[00:09:50.532] Extensions to install: 
+[00:09:50.532] Updating terminal environments: {}
+[00:09:50.533] TELEMETRY: {"eventName":"resolver","properties":{"osReleaseId":"ubuntu","arch":"aarch64","askedPw":"0","askedPassphrase":"0","asked2fa":"0","askedHostKey":"0","remoteInConfigFile":"1","gotUnrecognizedPrompt":"0","dynamicForwarding":"1","localServer":"1","didLocalDownload":"0","installUnpackCode":"0","outcome":"success"},"measures":{"resolveAttempts":2,"retries":1,"isExecServer":1,"timing.totalResolveTime":2110,"timing.preSshTime":41,"timing.establishSshTime":1909,"timing.scriptTime":2039,"timing.serverStartTime":86}}
+[00:09:50.534] ------
+
+
+
+
+[00:09:50.536] No hints found in the recent session.
+[00:09:50.610] stderr> debug1: channel 3: free: direct-tcpip: listening port 40995 for 127.0.0.1 port 43953, connect from 127.0.0.1 port 50668 to 127.0.0.1 port 40995, nchannels 4
+[00:09:50.849] [server] server download progress: 10515904/60297698 (17%)
+[00:09:50.849] [server] server download progress: 10515904/60297698 (17%)
+[00:09:51.258] [server] server download progress: 12618752/60297698 (21%)
+[00:09:51.258] [server] server download progress: 12618752/60297698 (21%)
+[00:09:51.565] [server] server download progress: 14720256/60297698 (24%)
+[00:09:51.566] [server] server download progress: 14720256/60297698 (24%)
+[00:09:51.975] [server] server download progress: 16818176/60297698 (28%)
+[00:09:51.975] [server] server download progress: 16818176/60297698 (28%)
+[00:09:52.379] [server] server download progress: 18921536/60297698 (31%)
+[00:09:52.380] [server] server download progress: 18921536/60297698 (31%)
+[00:09:52.670] [server] server download progress: 21019968/60297698 (35%)
+[00:09:52.671] [server] server download progress: 21019968/60297698 (35%)
+[00:09:53.049] [server] server download progress: 23121472/60297698 (38%)
+[00:09:53.049] [server] server download progress: 23121472/60297698 (38%)
+[00:09:53.410] [server] server download progress: 25225046/60297698 (42%)
+[00:09:53.410] [server] server download progress: 25225046/60297698 (42%)
+[00:09:53.818] [server] server download progress: 27329664/60297698 (45%)
+[00:09:53.819] [server] server download progress: 27329664/60297698 (45%)
+[00:09:54.229] [server] server download progress: 29428736/60297698 (49%)
+[00:09:54.230] [server] server download progress: 29428736/60297698 (49%)
+[00:09:54.624] [server] server download progress: 31530240/60297698 (52%)
+[00:09:54.624] [server] server download progress: 31530240/60297698 (52%)
+[00:09:55.047] [server] server download progress: 33629952/60297698 (56%)
+[00:09:55.047] [server] server download progress: 33629952/60297698 (56%)
+[00:09:55.318] [server] server download progress: 35728384/60297698 (59%)
+[00:09:55.318] [server] server download progress: 35728384/60297698 (59%)
+[00:09:55.661] [server] server download progress: 37829888/60297698 (63%)
+[00:09:55.662] [server] server download progress: 37829888/60297698 (63%)
+[00:09:56.071] [server] server download progress: 39929024/60297698 (66%)
+[00:09:56.071] [server] server download progress: 39929024/60297698 (66%)
+[00:09:56.481] [server] server download progress: 42030528/60297698 (70%)
+[00:09:56.482] [server] server download progress: 42030528/60297698 (70%)
+[00:09:56.789] [server] server download progress: 44128960/60297698 (73%)
+[00:09:56.789] [server] server download progress: 44128960/60297698 (73%)
+[00:09:57.197] [server] server download progress: 46232058/60297698 (77%)
+[00:09:57.198] [server] server download progress: 46232058/60297698 (77%)
+[00:09:57.506] [server] server download progress: 48337115/60297698 (80%)
+[00:09:57.506] [server] server download progress: 48337115/60297698 (80%)
+[00:09:57.915] [server] server download progress: 50439936/60297698 (84%)
+[00:09:57.916] [server] server download progress: 50439936/60297698 (84%)
+[00:09:58.222] [server] server download progress: 52543488/60297698 (87%)
+[00:09:58.222] [server] server download progress: 52543488/60297698 (87%)
+[00:09:58.631] [server] server download progress: 54641926/60297698 (91%)
+[00:09:58.632] [server] server download progress: 54641926/60297698 (91%)
+[00:09:59.246] [server] server download progress: 56740075/60297698 (94%)
+[00:09:59.246] [server] server download progress: 56740075/60297698 (94%)
+[00:09:59.655] [server] server download progress: 58843072/60297698 (98%)
+[00:09:59.655] [server] server download progress: 58843072/60297698 (98%)
+[00:09:59.962] [server] server download progress: 60297698/60297698 (100%)
+[00:09:59.963] [server] server download progress: 60297698/60297698 (100%)

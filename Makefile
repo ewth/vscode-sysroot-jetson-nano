@@ -5,7 +5,8 @@ all: sysroot-aarch64
 sysroot-aarch64:
 	mkdir -p toolchain
 	docker build -t vscode-sysroot --target sysroot .
-	docker run -it --rm -v $$PWD/toolchain:/out vscode-sysroot cp vscode-sysroot-aarch64-linux-gnu.tgz /out/
+	docker run -it --rm -v $$PWD/toolchain:/out -v $$PWD/src:/src vscode-sysroot /bin/bash
+	# cp vscode-sysroot-aarch64-linux-gnu.tgz /out/
 	ls -l toolchain
 
 clean:

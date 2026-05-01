@@ -17,6 +17,6 @@ WORKDIR /src
 FROM crosstool AS sysroot
 
 COPY aarch64-gcc-8.5.0-glibc-2.28.config /src/.config
-RUN ct-ng build
-RUN wget -O - https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0-aarch64.tar.gz | tar zxv -C aarch64-linux-gnu/aarch64-linux-gnu/sysroot/usr ./bin/patchelf
-RUN tar zcf vscode-sysroot-aarch64-linux-gnu.tgz -C aarch64-linux-gnu/aarch64-linux-gnu --exclude '*.a' sysroot
+# RUN ct-ng build
+# RUN wget -O - https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0-aarch64.tar.gz | tar zxv -C aarch64-linux-gnu/aarch64-linux-gnu/sysroot/usr ./bin/patchelf
+# RUN tar zcf vscode-sysroot-aarch64-linux-gnu.tgz -C aarch64-linux-gnu/aarch64-linux-gnu --exclude '*.a' sysroot
